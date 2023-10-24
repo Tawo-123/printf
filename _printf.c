@@ -16,6 +16,7 @@ int _printf(const char *format, ...)
 		{'b', ze_one_binary},
 		{'d', figure_print},
 		{'i', figure_print},
+		{'r', rev_string},
 		{'\0', NULL}
 	};
 
