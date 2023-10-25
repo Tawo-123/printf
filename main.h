@@ -28,5 +28,9 @@ int figure_print(va_list majestic_args);
 int rev_string(va_list majestic_args);
 int print_rot13(va_list majestic_args);
 int print_address(va_list majestic_args);
+int print_unsigned(va_list majestic_args);
+int print_octal(va_list majestic_args);
+int print_HXD(va_list majestic_args);
+int print_hxd(va_list majestic_args);
 
 #endif

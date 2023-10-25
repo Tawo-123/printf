@@ -19,6 +19,10 @@ int _printf(const char *format, ...)
 		{'r', rev_string},
 		{'R', print_rot13},
 		{'p', print_address},
+		{'u', print_unsigned},
+		{'o', print_octal},
+		{'X', print_HXD},
+		{'x', print_hxd},
 		{'\0', NULL}
 	};
 
