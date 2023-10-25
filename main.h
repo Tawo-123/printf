@@ -27,5 +27,6 @@ int majestic_string(va_list majestic_args);
 int figure_print(va_list majestic_args);
 int rev_string(va_list majestic_args);
 int print_rot13(va_list majestic_args);
+int print_address(va_list majestic_args);
 
 #endif

@@ -18,6 +18,7 @@ int _printf(const char *format, ...)
 		{'i', figure_print},
 		{'r', rev_string},
 		{'R', print_rot13},
+		{'p', print_address},
 		{'\0', NULL}
 	};
 
