@@ -14,7 +14,7 @@ int print_rot13(va_list majestic_args)
 	int j;
 	char *s;
 
-	s = va_arg(pfList, char *);
+	s = va_arg(majestic_args, char *);
 	if (s == NULL)
 		s = "(null)";
 	while (s[i] != '\0')
@@ -23,14 +23,14 @@ int print_rot13(va_list majestic_args)
 		{
 			if (s[i] == alphabet[j])
 			{
-				_putchar(rot13[j]);
+				printf_putchar(rot13[j]);
 				i++;
 				break;
 			}
 		}
 		if (!alphabet[j])
 		{
-			_putchar(s[i]);
+			printf_putchar(s[i]);
 			i++;
 		}
 	}
