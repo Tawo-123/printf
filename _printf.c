@@ -17,6 +17,7 @@ int _printf(const char *format, ...)
 		{'d', figure_print},
 		{'i', figure_print},
 		{'r', rev_string},
+		{'R', print_rot13},
 		{'\0', NULL}
 	};
 
